@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Project</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="top-bar">
@@ -16,54 +17,53 @@
                         <li>
                             <a href="#">
                                 <img src="images/wishlist.jpg" alt="my_wishlist">
-                                <p>My Wishlist (0)</p>
+                                My Wishlist (0)
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img src="images/account.jpg" alt="my_account">
-                                <p>My Account</p>
+                                My Account
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img src="images/cart.jpg" alt="Shopping_Cart">
-                                <p>Shopping Cart</p>
+                                Shopping Cart
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img src="images/checkout.jpg" alt="Checkout">
-                                <p>Checkout</p>
+                                Checkout
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-6 content1-right">
+                <div class="col-sm-6 login-register content1-right">
                     <p>Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a></p>
                 </div>
             </div>
         </div>        
     </div>
-
+  
     <div class="container">
         <div class="row">
             <div class="col-sm-6 content2-left">
-                <img src="images/logo.jpg" alt="">
+                <img src="images/logo.jpg" alt="logo">
             </div>
             <div class="col-sm-6 content2-right">
                 <ul>
                     <li><a href="#">
-                        <img src="" alt="">
-                        <p>US Dollar</p>
+                        US Dollar
                     </a></li>
                     <li><a href="#">
                         <img src="images/english.jpg" alt="english">
-                        <p>English</p>
+                        English
                     </a></li>
-                    <li><a href="#">
+                    <li class="items"><a href="#" >
                         <img src="images/items.jpg" alt="items">
-                        <p>0 Item(s) -$0.00</p>
+                        0 Item(s) -$0.00
                     </a></li>
                 </ul>
             </div>
@@ -114,7 +114,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <img src="images/big_img.jpg" alt="">
+                <img class="img-responsive" src="images/big_img.jpg" alt="">
             </div>
         </div>
     </div>
@@ -131,6 +131,18 @@
             </div>
         </div>
     </div>
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-6 content5-left">
+                    <h1>Latest</h1>
+                    <p>Buy discount items from the latest collections of world brands.</p>
+                </div>
+                <div class="col-sm-6 content5-right">
+                    <a href="#">&lt;</a>
+                    <a href="#">&gt;</a>
+                </div>            
+            </div>
+        </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
@@ -163,25 +175,12 @@
             <div class="col-sm-3">
                 <ul>
                     <li>
-                        <img src="images/sw" alt="sweater">
+                        <img src="images/sweater.jpg" alt="sweater">
                         <h3>Limited Edition Knitted <br> Sweater</h3>
                         <a href="#">ADD TO CART</a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 content5-left">
-                <h1>Latest</h1>
-                <p>Buy discount items from the latest collections of world brands.</p>
-            </div>
-            <div class="col-sm-6 content5-right">
-                <a href="#">&gt;</a>
-                <a href="#">&lt;</a>
-            </div>            
         </div>
     </div>
 
@@ -202,8 +201,8 @@
                 <h1>Bestsellers</h1>
             </div>
             <div class="col-sm-6 content7-right">
-                <a href="#"><</a>
-                <a href="#">></a>
+                <a href="#">&lt;</a>
+                <a href="#">&gt;</a>
             </div>
         </div>
     </div>
@@ -264,8 +263,9 @@
             <div class="col-sm-6 content11-right">
                 <form action="">
                     <input type="email" placeholder="Enter your email address">
+                    <a href="#">SIGN UP</a>
                 </form>
-                <a href="#">SIGN UP</a>
+                
             </div>
         </div>
     </div>
@@ -283,7 +283,7 @@
                 </ul>
             </div>
             <div class="col-sm-3 content12-left-outer">
-                <h1>INFORMATION</h1>
+                <h2>INFORMATION</h2>
                 <ul>
                     <li><a href="#"><p>New products</p></a></li>
                     <li><a href="#"><p>Top sellers</p></a></li>
@@ -294,23 +294,64 @@
                 </ul>
             </div>
             <div class="col-sm-3 content12-right-inner">
-                <h1>FROM TWITTER</h1>
+                <h2>FROM TWITTER</h2>
                 <ul>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus iure quasi perspiciatis sunt ex, veniam obcaecati <a href="#">possimus quod enim!</a></p></li>
-                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ullam id expedita libero velit<a href="#"></a> dignissimos neque ipsa?</a>a Obcaecati, reiciendis perferendis.</p></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ullam id expedita libero velit<a href="#">a Obcaecati, reiciendis perferendi</a> dignissimos neque ipsa?.</p></li>
                 </ul>
             </div>
             <div class="col-sm-3 content12-right-outer">
-                <h1>FACEBOOK</h1>
-                <a href="#"><img >Like!</a>
-                <ul>
-                    <li><img src="images/anna.jpg" alt="Anna"></li>
-                    <li><img src="images/tom.jpg" alt="Tom"></li>
-                    <li><img src="images/antuan.jpg" alt="Antuan"></li>
-                    <li><img src="images/milla.jpg" alt="Milla"></li>
-                    <li><img src="images/justine.jpg" alt="Justine"></li>
-                    <li><img src="images/maria.jpg" alt="Marie"></li>
-                </ul>
+                <div class="row">
+                    <div class="col-sm-6 left"><h2>FACEBOOK</h2></div>
+                    <div class="col-sm-6 right"><a href="#"><img src="images/like.jpg" alt="like">Like</a></div>
+                </div>
+                <div class="row">
+                    <p>1452 people like <a href="#">PromoKit</a></p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="images/anna.jpg" class="image-responsive"alt="Anna">
+                        <h3>Anna</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/tom.jpg" class="image-responsive"alt="Tom">   
+                        <h3>Tom</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/antuan.jpg" class="image-responsive"alt="Antuan"> 
+                        <h3>Antuan</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-4">
+                        <img src="images/milla.jpg" class="image-responsive"alt="Milla">   
+                        <h3>Milla</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/justine.jpg" class="image-responsive"alt="Justine">        
+                        <h3>Justine</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/maria.jpg" class="image-responsive"alt="Marie">   
+                        <h3>Marie</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 content13-left">
+               <img src="images/facebook.jpg" alt="facebook">
+               <img src="images/twitter.jpg" alt="twitter">
+               <img src="images/wifi.jpg" alt="wifi">
+               <img src="images/linked_in.jpg" alt="">
+               <img src="images/link" alt="">
+               <img src="images/two_dots.jpg" alt="">
+               <img src="images/skype.jpg" alt="">
+               <img src="images/message.jpg" alt="">
+            </div>
+            <div class="col-sm-6 content-14-right">
+                <p>&copy;2012 Powered by WooCommerce &trade;. All Rights Reserved.</p>
             </div>
         </div>
     </div>
